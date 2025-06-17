@@ -1,0 +1,47 @@
+# Node modules (React)
+node_modules/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Virtual environments
+.env
+venv/
+env/
+*.env
+
+# Model files (keep only if necessary)
+*.h5
+*.pkl
+*.joblib
+
+# OS & Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# React
+*.cache/
+npm-debug.log*
+
+# Tailwind cache
+.postcss-cache/
+tailwind.config.js
+
+# Ignore frontend dev artifacts
+stock-predictor-ui/.next/
+stock-predictor-ui/.vercel/
+stock-predictor-ui/yarn.lock
+
+# Ignore screenshots or temp files
+screenshots/
+*.zip
